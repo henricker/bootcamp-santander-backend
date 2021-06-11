@@ -2,3 +2,18 @@ server:
     port: 9862
     servlet:
         context-path: /bootcamp
+
+spring:
+    datasource:
+        driver-class-name: org.postgresql.Driver
+        url: jdbc:postgresql://motty.db.elephantsql.com:5432/byqyrcwg
+        username: byqyrcwg
+        password: OGUwlw8vCDuodrutjpGRszhAZpZEZU4g
+
+
+    jpa:
+        show-sql: true
+        database-platform: org.hibernate.dialect.PostgreSQLDialect
+        genereate-ddl: false
+        hibernate:
+            ddl-auto: none
