@@ -17,3 +17,12 @@ spring:
         genereate-ddl: false
         hibernate:
             ddl-auto: none
+
+
+application:
+    description: Projeto criado para o bootcamp DIO - Santander
+    Version: 1.0.0
+    termsOfService: http://swagger.io/terms
+    licence:
+        name: Apache 2.0
+        url:  http://springdoc.org
