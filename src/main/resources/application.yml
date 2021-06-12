@@ -6,9 +6,9 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: postgres://wkzmyraosesjue:6507c9ae0291699351c94afedf911d44c858bd61dbc787c5d6037c77fa9e8432@ec2-52-5-247-46.compute-1.amazonaws.com:5432/dckiudbj68i5ld
-    username: wkzmyraosesjue
-    password: 6507c9ae0291699351c94afedf911d44c858bd61dbc787c5d6037c77fa9e8432
+    url: postgres://bkfopaxoffrqaw:b4ef26f8c14252a87e9ef4c5f452194c4251a0161b33073ebd22adca2ce4f2b6@ec2-34-232-191-133.compute-1.amazonaws.com:5432/d68v840q0qtv6p
+    username: bkfopaxoffrqaw
+    password: b4ef26f8c14252a87e9ef4c5f452194c4251a0161b33073ebd22adca2ce4f2b6
   jpa:
     show-sql: true
     database-plataform: org.hibernate.dialect.PostgreSQLDialect
@@ -18,5 +18,5 @@ spring:
 
 application:
   title: Projeto realizado para o bootcamp DIO - Santander
-  description: Desenvolvido por Gabriel Lima de Moraes
+  description: Desenvolvido por Henrique Vieira Cavalcante
   version: 1.0
